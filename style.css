@@ -40,3 +40,49 @@ textarea {
 }
 
 /* Improvements for this to look better regarding alignment, whitespace and color&contrast: */
+
+body {
+  background-color: #ff5ebf;
+}
+
+section {
+  border-left: 0;
+}
+
+h1,
+p {
+  color: black;
+}
+
+h1 {
+  margin-bottom: 1.7rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+form {
+  color: black;
+}
+
+input[type="text"],
+textarea {
+  background-color: rgb(253, 171, 245);
+  border-bottom: 0;
+  border: 0.5px solid black;
+}
+
+input:last-of-type {
+  cursor: pointer;
+  background-color: #ca26ff;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+input:last-of-type:hover {
+  background-color: rgb(238, 85, 200);
+}
